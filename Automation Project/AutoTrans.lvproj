@@ -140,6 +140,7 @@
 			<Property Name="ws.useStandardURL" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Graph-to-2D-SVG.vi" Type="VI" URL="../SubVIs/Graph-to-2D-SVG.vi"/>
+		<Item Name="PostImages.vi" Type="VI" URL="../SubVIs/PostImages.vi"/>
 		<Item Name="RandomColor.vi" Type="VI" URL="../SubVIs/RandomColor.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -276,6 +277,7 @@
 				<Item Name="Is an Error (error array)__JKI Error Handling__JKI EasyXML.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/Is an Error (error array)__JKI Error Handling__JKI EasyXML.vi"/>
 				<Item Name="Is an Error (error cluster)__JKI Error Handling__JKI EasyXML.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/Is an Error (error cluster)__JKI Error Handling__JKI EasyXML.vi"/>
 				<Item Name="Is an Error__JKI Error Handling__JKI EasyXML.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/Is an Error__JKI Error Handling__JKI EasyXML.vi"/>
+				<Item Name="LabVIEWHTTPClient.lvlib" Type="Library" URL="/&lt;vilib&gt;/httpClient/LabVIEWHTTPClient.lvlib"/>
 				<Item Name="Link Children__JKI EasyXML.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/Link Children__JKI EasyXML.vi"/>
 				<Item Name="Link XML Start Tags with End Tags__JKI EasyXML.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/Link XML Start Tags with End Tags__JKI EasyXML.vi"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
@@ -297,6 +299,8 @@
 				<Item Name="Parse XML dateTime String__JKI EasyXML.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/Parse XML dateTime String__JKI EasyXML.vi"/>
 				<Item Name="Parse XML for Tags__JKI EasyXML.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/Parse XML for Tags__JKI EasyXML.vi"/>
 				<Item Name="Parse XML__JKI EasyXML.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/EasyXML/JKI_EasyXML.llb/Parse XML__JKI EasyXML.vi"/>
+				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
+				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
 				<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
 				<Item Name="Read From Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (I64).vi"/>
@@ -405,6 +409,82 @@
 				<Property Name="TgtF_productName" Type="Str">auto_Trans</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{130E599F-120B-4595-861D-9BD43FB26BFB}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">AutoTrans.exe</Property>
+			</Item>
+			<Item Name="auto_Trans2" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{B087BF06-BC6C-4F00-BECF-D120EF92C993}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{6459A607-7AED-4E5B-8E5C-FB14902821D3}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{451E7CE2-B2AE-4F24-8D18-E6413A6AFBE6}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">auto_Trans2</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/auto_Trans2</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{C005D699-DDFB-46DE-AA0D-3AED482C66EB}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/auto_Trans2/Application.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/auto_Trans2/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{220FA5EE-5424-405A-A0CD-6595C357245A}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/auto_Trans.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Levy Lab</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">auto_Trans2</Property>
+				<Property Name="TgtF_internalName" Type="Str">auto_Trans2</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 Levy Lab</Property>
+				<Property Name="TgtF_productName" Type="Str">auto_Trans2</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{23CA534C-BFCC-4B1C-9D7E-CA544A759800}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
+			</Item>
+			<Item Name="auto_Trans3" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{E6E3581A-4BFB-4743-9699-78C98900B3A7}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{87156F9D-A464-46EB-ABFD-A860B04FAC3F}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{0AAD7DEF-1AB3-48B8-AE28-345E6B4FD880}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">auto_Trans3</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/auto_Trans3</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{3A118ACA-3AFE-42DC-8060-FE143B79B851}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/auto_Trans3/Application.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/auto_Trans3/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{220FA5EE-5424-405A-A0CD-6595C357245A}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/auto_Trans.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Levy Lab</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">auto_Trans3</Property>
+				<Property Name="TgtF_internalName" Type="Str">auto_Trans3</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 Levy Lab</Property>
+				<Property Name="TgtF_productName" Type="Str">auto_Trans3</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{52C26316-2CAD-45E4-AA0B-5A9E6A7BAC09}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
 			</Item>
 		</Item>
 	</Item>
