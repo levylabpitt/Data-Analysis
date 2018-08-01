@@ -1,0 +1,59 @@
+{
+    "Timestamp":"2018-07-17T13:27:54.190Z",
+    "Temperature":72.0000000000000,
+    "Humidity":55.0000000000000,
+    "B Field":{
+        "Bx":0.000200000000000000,
+        "By":0.000130000000000000,
+        "Bz":309.100000000000
+    },
+    "Terminal Info Clusters":[
+        {
+            "Terminal Identifier":"28-SG1-L7",
+            "AC Freq":0.00000000000000,
+            "AC Amp":0.00000000000000,
+            "DC Amp":0.00000000000000
+        },
+        {
+            "Terminal Identifier":"1-S-L0",
+            "AC Freq":0.100000000000000,
+            "AC Amp":0.0100000000000000,
+            "DC Amp":0.00000000000000
+        },
+        {
+            "Terminal Identifier":"2-SG2-L1",
+            "AC Freq":0.00000000000000,
+            "AC Amp":0.00000000000000,
+            "DC Amp":0.00000000000000
+        },
+        {
+            "Terminal Identifier":"3-D-L2",
+            "AC Freq":0.00000000000000,
+            "AC Amp":0.00000000000000,
+            "DC Amp":0.00000000000000
+        },
+        {
+            "Terminal Identifier":"26-BG-L5",
+            "AC Freq":0.00000000000000,
+            "AC Amp":0.00000000000000,
+            "DC Amp":0.00000000000000
+        }
+    ],
+    "Sweeping Infos":[
+        {
+            "Sweep Rate":0.00000000000000,
+            "Sweep Identifier":"",
+            "Start Value":0.00000000000000,
+            "End Value":0.00000000000000,
+            "Step Size":0.00000000000000
+        },
+        {
+            "Sweep Rate":0.00000000000000,
+            "Sweep Identifier":"",
+            "Start Value":0.00000000000000,
+            "End Value":0.00000000000000,
+            "Step Size":0.00000000000000
+        }
+    ],
+    "Comments":"Looking For Coulomb Peaks"
+}

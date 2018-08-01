@@ -1,0 +1,52 @@
+{
+    "Timestamp":"2018-07-17T16:18:26.406Z",
+    "Temperature":6.00000000000000,
+    "Humidity":40.0000000000000,
+    "B Field":{
+        "Bx":0.0190000000000000,
+        "By":0.0200000000000000,
+        "Bz":0.0180000000000000
+    },
+    "Terminal Info Clusters":[
+        {
+            "Terminal Identifier":"28-SG1-L0",
+            "AC Freq":0.00000000000000,
+            "AC Amp":0.00000000000000,
+            "DC Amp":0.00000000000000
+        },
+        {
+            "Terminal Identifier":"1-S-L0",
+            "AC Freq":0.500000000000000,
+            "AC Amp":0.0100000000000000,
+            "DC Amp":0.00000000000000
+        },
+        {
+            "Terminal Identifier":"2-SG2-L1",
+            "AC Freq":0.00000000000000,
+            "AC Amp":0.00000000000000,
+            "DC Amp":0.00000000000000
+        },
+        {
+            "Terminal Identifier":"3-D-L2",
+            "AC Freq":0.00000000000000,
+            "AC Amp":0.00000000000000,
+            "DC Amp":0.00000000000000
+        },
+        {
+            "Terminal Identifier":"26_BG_L5",
+            "AC Freq":0.00000000000000,
+            "AC Amp":0.00000000000000,
+            "DC Amp":-3.00000000000000
+        }
+    ],
+    "Sweeping Infos":[
+        {
+            "Sweep Rate":1.00000000000000,
+            "Sweep Identifier":"26_BG_L5",
+            "Start Value":-5.00000000000000,
+            "End Value":5.00000000000000,
+            "Step Size":0.100000000000000
+        }
+    ],
+    "Comments":"sweep test"
+}

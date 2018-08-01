@@ -1,1 +1,0 @@
-This folder contains MATLAB examples on reading Photon-HDF5 files.
