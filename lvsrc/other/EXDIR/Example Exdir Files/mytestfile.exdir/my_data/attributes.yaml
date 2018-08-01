@@ -1,0 +1,4 @@
+temperature: 99.5
+my_attribute:
+  key1: "value1"
+  key2: "value2"
