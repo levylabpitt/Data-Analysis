@@ -1,0 +1,8 @@
+exdir:
+  type: "file"
+  version: 1
+  category:
+    key1: "value1"
+    key2: "value2"
+  lastkey: lastvalue
+outerkey: "test"
