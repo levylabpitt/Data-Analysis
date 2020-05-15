@@ -12,3 +12,9 @@ Data Analysis Framework is a template (simple-LevyLab Analysis Framework (Templa
 Basic use (sequence frames represent states or multiple states in a JKI State Machine):
 
 ![](documentation/Data-Analysis-Outline.png)
+
+## Contributing
+Please contact [Patrick Irvin](https://github.com/ciozi137)
+
+## License
+[BSD-3](https://opensource.org/licenses/BSD-3-Clause)
