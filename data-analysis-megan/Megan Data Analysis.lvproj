@@ -1400,8 +1400,10 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{1CFA413E-8B5B-49B8-BF30-F4DEBBE3AFB4}</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Bld_version.patch" Type="Int">6</Property>
 				<Property Name="Destination[0].destName" Type="Str">Transconductance State Machine.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Application/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -1530,9 +1532,10 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A1965D70-568F-4DB6-B3C8-D34500EC05A5}</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">4</Property>
+				<Property Name="Bld_version.patch" Type="Int">6</Property>
 				<Property Name="Destination[0].destName" Type="Str">Retrieve and Visualize.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Application/Retrieve and Visualize.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -1620,7 +1623,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">Retrieve and Visualize Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{56B03784-38F1-4903-B662-A22E3E7ADF77}</Property>
 				<Property Name="INST_productName" Type="Str">Data Analysis</Property>
-				<Property Name="INST_productVersion" Type="Str">2.1.5</Property>
+				<Property Name="INST_productVersion" Type="Str">2.1.6</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">16008029</Property>
 				<Property Name="MSI_arpCompany" Type="Str">University of Pittsburgh</Property>
