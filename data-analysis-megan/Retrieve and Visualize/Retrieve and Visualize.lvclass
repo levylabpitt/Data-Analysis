@@ -65,13 +65,13 @@
 	</Item>
 	<Item Name="2D" Type="Folder">
 		<Item Name="Derivative (2D).vi" Type="VI" URL="../subVIs/2D Array/Derivative (2D).vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%R!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!5!#A!!)E"!!!,``````````Q!&amp;%&amp;2S97ZT9W^O:(6D&gt;'&amp;O9W5!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!'5!+!".E:8*J&gt;G&amp;U;8:F)'*J&lt;C"T;8JF!"B!1!!"`````Q!&amp;#E&amp;Y;8-A18*S98E!!"R!1!!#``````````]!"1N$&lt;WZE&gt;7.U97ZD:1"5!0!!$!!$!!1!"!!'!!1!"!!%!!1!"Q!)!!E!#A-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!I!!!))!!!"#A!!!!!"!!M!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%9!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!5!#A!!)E"!!!,``````````Q!&amp;%&amp;2S97ZT9W^O:(6D&gt;'&amp;O9W5!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!'%"!!!(`````!!5+18BJ=S""=H*B?1!!(%"!!!,``````````Q!&amp;#U.P&lt;G2V9X2B&lt;G.F!&amp;1!]!!-!!-!"!!%!!9!"!!%!!1!"!!(!!1!#!!*!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!AA!!!%+!!!!!!%!#A!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1074278930</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 		</Item>
 		<Item Name="Log (2D).vi" Type="VI" URL="../subVIs/2D Array/Log (2D).vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%)!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!&gt;!#A!"?1!;1%!!!P``````````!!5*18*S98EA&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!%%!B#ERP:S"T9W&amp;M:4]!!"J!1!!#``````````]!"1B"=H*B?3"J&lt;A!!6!$Q!!Q!!Q!%!!1!"A!%!!1!"!!%!!=!"!!)!!E#!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!#!!!!1I!!!!!!1!+!!!!!!</Property>
@@ -93,6 +93,15 @@
 		</Item>
 	</Item>
 	<Item Name="DVR" Type="Folder">
+		<Item Name="Testing (DVR).vi" Type="VI" URL="../subVIs/DVR/Testing (DVR).vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;B!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!5!#A!!$!"!!!(`````!!5!#U!+!!2N:7&amp;O!!!-!%!!!@````]!"Q!G1&amp;!!!A!'!!A&lt;2'6D;7VB&gt;'6E)'&amp;O:#"*&lt;H2F=G&amp;Q&lt;WRB&gt;'6E!"B!1!!$````````````````!!E#369!!#6!=!!A!!%!#A!92'&amp;U93"797RV:3"3:7:F=G6O9W5A&lt;X6U!!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!)U"Q!#!!!1!+!"&gt;%982B)&amp;:B&lt;(6F)&amp;*F:G6S:7ZD:3"J&lt;A"5!0!!$!!$!!1!"!!,!!1!"!!%!!1!$!!%!!1!$1-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!#!!!!!!"!!Y!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+		</Item>
 		<Item Name="SG Filter (DVR).vi" Type="VI" URL="../subVIs/DVR/SG Filter (DVR).vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;S!!!!%!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!5!#A!!$!"!!!(`````!!5!#U!+!!2N:7&amp;O!!!-!%!!!@````]!"Q!G1&amp;!!!A!'!!A&lt;2'6D;7VB&gt;'6E)'&amp;O:#"*&lt;H2F=G&amp;Q&lt;WRB&gt;'6E!"B!1!!$````````````````!!E#369!!#6!=!!A!!%!#A!92'&amp;U93"797RV:3"3:7:F=G6O9W5A&lt;X6U!!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!%5!$!!NT;72F)("P;7ZU=Q!D1(!!)!!"!!I!&amp;U2B&gt;'%A6G&amp;M&gt;75A5G6G:8*F&lt;G.F)'FO!&amp;1!]!!-!!-!"!!%!!M!"!!%!!1!"!!-!!1!$1!/!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!A!!!!)!!!!!!%!$Q!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -103,7 +112,7 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 		</Item>
 		<Item Name="Derivative (DVR).vi" Type="VI" URL="../subVIs/DVR/Derivative (DVR).vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'?!!!!%A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!5!#A!!$!"!!!(`````!!5!#U!+!!2N:7&amp;O!!!-!%!!!@````]!"Q!G1&amp;!!!A!'!!A&lt;2'6D;7VB&gt;'6E)'&amp;O:#"*&lt;H2F=G&amp;Q&lt;WRB&gt;'6E!"B!1!!$````````````````!!E#369!!".!=!!A!!%!#A!':&amp;AA&lt;X6U!!!D1"9!!AJE?3^E?#"W=S"Y#G2Y,W2Z)(:T)(E!"&amp;2Z='5!!"&amp;!#A!+2GFU)&amp;"P;7ZU=Q!!)U"Q!#!!!1!+!"&gt;%982B)&amp;:B&lt;(6F)&amp;*F:G6S:7ZD:3"J&lt;A!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"&amp;!=!!A!!%!#A!&amp;:&amp;AA;7Y!6!$Q!!Q!!Q!%!!1!#Q!-!!1!$1!/!!]!"!!%!"!$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!#!!!!!!!!!!)!!!!#!!!!!I!!!!!!!!!!!!!!!A!!!!!!1!2!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'.!!!!%1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!5!#A!!$!"!!!(`````!!5!#U!+!!2N:7&amp;O!!!-!%!!!@````]!"Q!G1&amp;!!!A!'!!A&lt;2'6D;7VB&gt;'6E)'&amp;O:#"*&lt;H2F=G&amp;Q&lt;WRB&gt;'6E!"B!1!!$````````````````!!E#369!!".!=!!A!!%!#A!':&amp;AA&lt;X6U!!!D1"9!!AJE?3^E?#"W=S"Y#G2Y,W2Z)(:T)(E!"&amp;2Z='5!!#.!=!!A!!%!#A!82'&amp;U93"797RV:3"3:7:F=G6O9W5A;7Y!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!21(!!)!!"!!I!"729)'FO!&amp;1!]!!-!!-!"!!%!!M!$!!%!!1!$1!/!!1!"!!0!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!A!!!!!!!!!!!!!!!A!!!!+!!!!!!!!!!!!!!!)!!!!!!%!%!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
@@ -119,6 +128,15 @@
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+		</Item>
+		<Item Name="Subset (DVR).vi" Type="VI" URL="../subVIs/DVR/Subset (DVR).vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;A#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;^!!!!%!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!5!#A!!$!"!!!(`````!!5!#U!+!!2N:7&amp;O!!!-!%!!!@````]!"Q!G1&amp;!!!A!'!!A&lt;2'6D;7VB&gt;'6E)'&amp;O:#"*&lt;H2F=G&amp;Q&lt;WRB&gt;'6E!"B!1!!$````````````````!!E#369!!#6!=!!A!!%!#A!92'&amp;U93"797RV:3"3:7:F=G6O9W5A&lt;X6U!!!71&amp;!!!Q!!!!%!!ABF=H*P=C"J&lt;A!!(%"1!!)!"1!&amp;%6.V9H.F&gt;#"4&lt;'FE:8)A+#5J!#.!=!!A!!%!#A!82'&amp;U93"797RV:3"3:7:F=G6O9W5A;7Y!6!$Q!!Q!!Q!%!!1!#Q!%!!1!"!!%!!Q!"!!.!!Y$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!#!!!!!A!!!!!!1!0!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
 		</Item>
 	</Item>
 	<Item Name="DAT File" Type="Folder">
