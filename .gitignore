@@ -1,1 +1,3 @@
-/builds/Package
+/builds/
+*.lvlps
+*.aliases
