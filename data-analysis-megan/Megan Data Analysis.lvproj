@@ -81,6 +81,7 @@
 			<Item Name="LV to ITX  Retrieve_SE mode  calculate R.vi" Type="VI" URL="../misc/LV to ITX  Retrieve_SE mode  calculate R.vi"/>
 		</Item>
 		<Item Name="Parse YAML.vi" Type="VI" URL="../Transconductance State Machine/subVI/Parse YAML.vi"/>
+		<Item Name="Power Spectra of Transconductance Waterfall.vi" Type="VI" URL="../../../jeremy-software/Power Spectra/Power Spectra of Transconductance Waterfall.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
