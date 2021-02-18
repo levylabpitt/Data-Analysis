@@ -766,8 +766,7 @@
 			<Item Name="shell32.dll" Type="Document" URL="shell32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Electrode to Color.vi" Type="VI" URL="../../../../../../Users/III/Downloads/Archive (1)/Electrode to Color.vi"/>
-			<Item Name="Color Electrode Box.vi" Type="VI" URL="../../../../../../Users/III/Downloads/Archive (1)/Color Electrode Box.vi"/>
+			<Item Name="Device to Color.vi" Type="VI" URL="../Retrieve and Visualize/subVIs/Device to Color.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Transconductance State Machine Application" Type="EXE">
