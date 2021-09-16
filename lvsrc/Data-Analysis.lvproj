@@ -14,7 +14,14 @@
 			<Item Name="Data Analaysis Template.vipb" Type="Document" URL="../../build support/Data Analaysis Template.vipb"/>
 			<Item Name="Data Analaysis Template.vipc" Type="Document" URL="../../build support/Data Analaysis Template.vipc"/>
 		</Item>
-		<Item Name="simple-LevyLab Analysis Framework (Template).vi" Type="VI" URL="../simple-LevyLab Analysis Framework (Template).vi"/>
+		<Item Name="documentation" Type="Folder">
+			<Item Name="Data-Analysis-Framework.svg" Type="Document" URL="../../documentation/Data-Analysis-Framework.svg"/>
+			<Item Name="Data-Analysis-Outline.png" Type="Document" URL="../../documentation/Data-Analysis-Outline.png"/>
+			<Item Name="Outline.vi" Type="VI" URL="../../documentation/Outline.vi"/>
+		</Item>
+		<Item Name="lvsrc" Type="Folder">
+			<Item Name="simple-LevyLab Analysis Framework (Template).vi" Type="VI" URL="../simple-LevyLab Analysis Framework (Template).vi"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -40,6 +47,7 @@
 				<Item Name="Compare Two Paths - Path2 Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Compare Two Paths - Path2 Array__ogtk.vi"/>
 				<Item Name="Compare Two Paths - Scalar__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Compare Two Paths - Scalar__ogtk.vi"/>
 				<Item Name="Compare Two Paths__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Compare Two Paths__ogtk.vi"/>
+				<Item Name="Conversion.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/LV-Data/Macros/Conversion.lvclass"/>
 				<Item Name="Convert EOLs (String Array)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Convert EOLs (String Array)__ogtk.vi"/>
 				<Item Name="Convert EOLs (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Convert EOLs (String)__ogtk.vi"/>
 				<Item Name="Convert EOLs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Convert EOLs__ogtk.vi"/>
@@ -48,10 +56,6 @@
 				<Item Name="Convert File Extension__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Convert File Extension__ogtk.vi"/>
 				<Item Name="Create Dir if Non-Existant__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Create Dir if Non-Existant__ogtk.vi"/>
 				<Item Name="Current VIs Parents Ref__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/appcontrol/appcontrol.llb/Current VIs Parents Ref__ogtk.vi"/>
-				<Item Name="Data.DAT.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/LV to ITX/Data.DAT/Data.DAT.lvclass"/>
-				<Item Name="Data.ITX.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/LV to ITX/Data.ITX/Data.ITX.lvclass"/>
-				<Item Name="Data.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/LV to ITX/Data/Data.lvclass"/>
-				<Item Name="Data.TDMS.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/LV to ITX/Data.TDMS/Data.TDMS.lvclass"/>
 				<Item Name="Delete Elements from 1D Array (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (Boolean)__ogtk.vi"/>
 				<Item Name="Delete Elements from 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (CDB)__ogtk.vi"/>
 				<Item Name="Delete Elements from 1D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (CSG)__ogtk.vi"/>
@@ -130,6 +134,11 @@
 				<Item Name="graph_utilities.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Graph Utilities/graph_utilities.lvclass"/>
 				<Item Name="Increment Filename.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/FileUtilities/Increment Filename.vi"/>
 				<Item Name="Is String Number.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/FileUtilities/Support/Is String Number.vi"/>
+				<Item Name="ITX Commands.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/LV-Data/LV-Data.ITX/ITX Commands/ITX Commands.lvclass"/>
+				<Item Name="LV-Data.DAT.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/LV-Data/LV-Data.DAT/LV-Data.DAT.lvclass"/>
+				<Item Name="LV-Data.ITX.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/LV-Data/LV-Data.ITX/LV-Data.ITX.lvclass"/>
+				<Item Name="LV-Data.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/LV-Data/LV-Data/LV-Data.lvclass"/>
+				<Item Name="LV-Data.TDMS.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/LV-Data/LV-Data.TDMS/LV-Data.TDMS.lvclass"/>
 				<Item Name="lvzlib.dll" Type="Document" URL="/&lt;userlib&gt;/_OpenG.lib/lvzip/lvzlib.dll"/>
 				<Item Name="MACBIN CCITT_CRC16__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvzip/macbin.llb/MACBIN CCITT_CRC16__ogtk.vi"/>
 				<Item Name="MACBIN Copy Fork To File__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvzip/macbin.llb/MACBIN Copy Fork To File__ogtk.vi"/>
@@ -449,12 +458,6 @@
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
-			<Item Name="Conversion.lvclass" Type="LVClass" URL="../../../LV-to-ITX/src/Macros/Conversion.lvclass"/>
-			<Item Name="ITX Commands.lvclass" Type="LVClass" URL="../../../LV-to-ITX/src/LV-Data.ITX/ITX Commands/ITX Commands.lvclass"/>
-			<Item Name="LV-Data.DAT.lvclass" Type="LVClass" URL="../../../LV-to-ITX/src/LV-Data.DAT/LV-Data.DAT.lvclass"/>
-			<Item Name="LV-Data.ITX.lvclass" Type="LVClass" URL="../../../LV-to-ITX/src/LV-Data.ITX/LV-Data.ITX.lvclass"/>
-			<Item Name="LV-Data.lvclass" Type="LVClass" URL="../../../LV-to-ITX/src/LV-Data/LV-Data.lvclass"/>
-			<Item Name="LV-Data.TDMS.lvclass" Type="LVClass" URL="../../../LV-to-ITX/src/LV-Data.TDMS/LV-Data.TDMS.lvclass"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
